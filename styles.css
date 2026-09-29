@@ -8,10 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 /* Universal padding for page left and right page edges. */
-.header, .info-panel, .pics-panel, .quote-panel, .sign-up-panel, .footer {
+.header, .info-panel, .pics-panel, .quote-panel, .sign-up-panel {
     padding: 16px 15% 72px 15%;
 }
 
@@ -75,25 +76,90 @@ ul {
     align-items: center;
 }
 
+.pic-heading {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    height: 100px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .deck {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 48px;
 }
 
-.card {
+.card p {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    max-width: 300px;
-    
-    
+    width: 150px;
+       
 }
 
 .card img {
-    width: 200px;
+    width: 150px;
     border-radius: 8px;
     border: 2px solid rgb(43, 47, 59);
+}
+
+.quote-panel {
+    padding: 0% 20%;
+    background-color: rgb(205, 204, 204);
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.quote-panel h3 {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-up-panel {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 72px 15%;
+}
+
+.sign-up-card {
+    background-color: rgb(69, 105, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 32px 10%;
+    border-radius: 8px;
+    color: white;
+}
+
+.bold {
+    font-size: 24px;
+    font-weight: 900s;
+}
+
+.not-bold {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.footer {
+    background-color: rgb(43, 47, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    justify-self: flex-end;
+    margin: 0%;
 }
