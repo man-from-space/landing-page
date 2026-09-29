@@ -10,8 +10,9 @@ body {
     margin: 0;
 }
 
+/* Universal padding for page left and right page edges. */
 .header, .info-panel, .pics-panel, .quote-panel, .sign-up-panel, .footer {
-    padding: 0 10%;
+    padding: 16px 15% 48px 15%;
 }
 
 .top-panel {
@@ -36,4 +37,25 @@ ul {
     margin:0;
     display: flex;
     gap: 16px;
+}
+
+.info-panel {
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+#info-image {
+    display: flex;
+    min-width: 200px;
+    max-height: 150px;
+}
+#top-button, #bottom-button {
+    background-color: rgb(69, 105, 214);
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 8px 16px;
 }
