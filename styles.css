@@ -19,7 +19,7 @@ body {
 
 .top-panel {
     background-color: rgb(43, 47, 59);
-}
+    }
 
 .logo {
     color: white;
@@ -44,21 +44,25 @@ ul {
 .info-panel {
     color:white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
+    justify-self: center;
+    padding: 0px;
+    margin-bottom: 72px;
 }
 
 .left {
-    max-width: 50%;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 #info-image {
-    min-width: 200px;
+    max-width: 400px;
+    flex-grow: 1;
 }
 
 #top-button, #bottom-button {
@@ -67,7 +71,10 @@ ul {
     border-radius: 6px;
     border: 1px solid white;
     padding: 8px 16px;
-    max-width: 150px;
+    flex-shrink: 1;
+    width: 150px;
+
+
 }
 
 .pics-panel {
@@ -143,6 +150,7 @@ ul {
     border-radius: 8px;
     color: white;
 }
+
 
 .bold {
     font-size: 24px;
