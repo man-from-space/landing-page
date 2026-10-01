@@ -47,9 +47,7 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
-    justify-self: center;
-    
-   
+    justify-self: center;   
 }
 
 .left {
@@ -140,15 +138,22 @@ ul {
     padding: 72px 15%;
 }
 
+.sign-up-left {
+    min-width: 200px;
+    max-width: 400px;
+}
+
 .sign-up-card {
     background-color: rgb(69, 105, 214);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
     padding: 32px 10%;
     border-radius: 8px;
     color: white;
+    gap: 16px;
 }
 
 
