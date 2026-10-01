@@ -48,8 +48,8 @@ ul {
     flex-wrap: wrap;
     gap: 32px;
     justify-self: center;
-    padding: 0px;
-    margin-bottom: 72px;
+    
+   
 }
 
 .left {
@@ -73,8 +73,6 @@ ul {
     padding: 8px 16px;
     flex-shrink: 1;
     width: 150px;
-
-
 }
 
 .pics-panel {
@@ -82,6 +80,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .pic-heading {
